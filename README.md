@@ -81,5 +81,6 @@ The Searcher is a Java-based search platform application built with Android Stud
 
 ### Notes
 Dependencies: The app uses specific versions of dependencies that have been tested for compatibility. Avoid updating them unless necessary, as newer versions may cause breaking changes.
+
 SDK Versions: Leave the SDK versions as they are in the project to avoid compatibility issues.
 

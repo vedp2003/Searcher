@@ -48,7 +48,7 @@ public class movieFavDetails extends AppCompatActivity {
         writer = getIntent().getStringExtra("writer");
         imdbrating = getIntent().getStringExtra("imdbrating");
 
-        favMovieTitle.setText("Movie Name: " + title);
+        favMovieTitle.setText("Movie/Show Name: " + title);
         favMovieReleased.setText("Released In: " + year);
         favMovieActor.setText("Actors: " + actor);
         favMovieCountry.setText("Country: " + country);

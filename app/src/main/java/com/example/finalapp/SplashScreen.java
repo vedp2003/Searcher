@@ -16,7 +16,7 @@ public class SplashScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EasySplashScreen splashScreen = new EasySplashScreen(SplashScreen.this)
                 .withFullScreen().withTargetActivity(MainActivity.class).withSplashTimeOut(4000)
-                .withBackgroundColor(Color.parseColor("#0000FF")).withBeforeLogoText("Ved's App").withAfterLogoText("The Searcher").withLogo(R.drawable.searcher);
+                .withBackgroundColor(Color.parseColor("#0000FF")).withBeforeLogoText("The Searcher").withAfterLogoText("By Ved").withLogo(R.drawable.searcher);
 
         splashScreen.getBeforeLogoTextView().setTextSize(40);
         splashScreen.getBeforeLogoTextView().setTextColor(Color.MAGENTA);

@@ -159,7 +159,7 @@ public class MovieSearch extends AppCompatActivity {
                             }
                         }
                         if (checker) {
-                            Toast.makeText(MovieSearch.this, "Movie Already In Your Favorites", Toast.LENGTH_SHORT).show();
+                            Toast.makeText(MovieSearch.this, "Movie/Show Already In Your Favorites", Toast.LENGTH_SHORT).show();
                         }
                         if (checker == false) {
                             Map<String, Object> movie = new HashMap<>();
@@ -179,7 +179,7 @@ public class MovieSearch extends AppCompatActivity {
                             collectionReference.add(movie).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                                 @Override
                                 public void onSuccess(DocumentReference documentReference) {
-                                    Toast.makeText(MovieSearch.this, "Movie Added To Your Favorites", Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(MovieSearch.this, "Movie/Show Added To Your Favorites", Toast.LENGTH_SHORT).show();
                                 }
                             }).addOnFailureListener(new OnFailureListener() {
                                 @Override
@@ -270,7 +270,7 @@ public class MovieSearch extends AppCompatActivity {
         requestQueue = Volley.newRequestQueue(this);
         name = editTextName.getText().toString();
         apiID = "85218b64";
-        url = "http://www.omdbapi.com/?t=" + name + "&plot=full&apikey=" + apiID;
+        url = "https://www.omdbapi.com/?t=" + name + "&plot=full&apikey=" + apiID;
         StringRequest request = new StringRequest((Request.Method.GET), url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -290,7 +290,7 @@ public class MovieSearch extends AppCompatActivity {
                     writer = object.getString("Writer");
                     imdbrating = object.getString("imdbRating");
                     Glide.with(MovieSearch.this).load(image).into(imageView);
-                    tvTitle.setText("Movie Name: " + title);
+                    tvTitle.setText("Movie/Show Name: " + title);
                     tvYear.setText("Released In: " + year);
                     tvActor.setText("Actors: " + actor);
                     tvCountry.setText("Country: " + country);

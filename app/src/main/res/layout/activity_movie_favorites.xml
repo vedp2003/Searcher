@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:fontFamily="@font/berkshire_swash"
-            android:text="Your Movie Favorites"
+            android:text="Your Movie/Show Favorites"
             android:textColor="@color/red"
             android:textSize="30dp"
             android:textStyle="bold" />

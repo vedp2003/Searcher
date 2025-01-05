@@ -9,15 +9,15 @@
 
     <item
         android:id="@+id/item1"
-        android:title="Movies"
+        android:title="Movies/Shows"
         app:showAsAction="never">
         <menu>
             <item
                 android:id="@+id/SearchMovies"
-                android:title="Movie Search" />
+                android:title="Movie/Show Search" />
             <item
                 android:id="@+id/MovieFav"
-                android:title="Movie Favorites" />
+                android:title="Movie/Show Favorites" />
         </menu>
     </item>
 

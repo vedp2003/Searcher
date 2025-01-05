@@ -33,7 +33,7 @@
             android:layout_toEndOf="@id/favMovieImage"
             android:fontFamily="@font/boogaloo"
             android:padding="2.5dp"
-            android:text="Movie Title"
+            android:text="Movie/Show Title"
             android:textColor="@color/black"
             android:textSize="28sp" />
 
@@ -63,7 +63,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:fontFamily="@font/bungee_inline"
-            android:text="Buy Movie On Amazon"
+            android:text="Watch On Amazon Prime"
             android:textColor="@color/black"
             android:textSize="14sp" />
 

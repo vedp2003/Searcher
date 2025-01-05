@@ -2,8 +2,8 @@
 
 The Searcher is a Java-based search platform application built with Android Studio. It is designed to help users search for books and movies/shows, save their favorites, and manage their personalized accounts. The app integrates Firebase Realtime Database for backend services and uses external APIs like Google Books API and OMDb API for fetching book and movie details.
 
-View Play Demo here (hosted on Appetize.io): https://appetize.io/app/b_gmqe24sxhfileu2ti7ni2oun2y?device=pixel7&osVersion=13.0
 ---
+View Play Demo here (hosted on Appetize.io): https://appetize.io/app/b_gmqe24sxhfileu2ti7ni2oun2y?device=pixel7&osVersion=13.0
 
 ## Features
 

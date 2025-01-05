@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/favmovieimageView"
+            android:layout_width="379dp"
+            android:layout_height="181dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:id="@+id/daTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Title"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daIMDB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="IMDB"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Rating"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Country"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daGenre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Genre"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daRuntime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Runtime"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daReleased"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Released"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daDirector"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Director"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daWriter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Writer"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daActors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Authors"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/daPlot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Plot"
+            android:textColor="@color/purple_700"
+            android:textSize="17sp" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+*.apk
+*.aar
+*.ap_
+
+# Ignore Java class files
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore Gradle-related files
+.gradle/
+*.lock
+
+# Ignore Keystore files (important for security)
+*.keystore
+
+# Ignore ProGuard and mapping files
+proguard/
+*.mapping
+
+# Ignore ZIP files and other compressed formats
+*.zip
+*.tar.gz
+*.rar
+
+# Ignore other cache files
+.idea/

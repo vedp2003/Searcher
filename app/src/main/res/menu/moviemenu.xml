@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/userProfile"
+        android:title="User Profile"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item1"
+        android:title="Movies"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/SearchMovies"
+                android:title="Movie Search" />
+            <item
+                android:id="@+id/MovieFav"
+                android:title="Movie Favorites" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/item2"
+        android:title="Books"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/SearchBooks"
+                android:title="Book Search" />
+            <item
+                android:id="@+id/BookFav"
+                android:title="Book Favorites" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/lg"
+        android:title="Logout"
+        app:showAsAction="never"></item>
+
+</menu>
